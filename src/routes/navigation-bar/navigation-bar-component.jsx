@@ -15,6 +15,9 @@ const NavigationBar = () => {
           <Link className="nav-link" to="/">
             <FireLogo />
           </Link>
+          <Link className="nav-link" to="/sign-in">
+            <FireLogo />
+          </Link>
         </div>
       </div>
       <Outlet />
